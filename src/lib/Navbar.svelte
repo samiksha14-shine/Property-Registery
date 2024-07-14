@@ -81,7 +81,7 @@
       </ul>
     </div>
     <a
-      href="https://www.linkedin.com/in/shivamani-yamana-71032025b/"
+      href="https://www.linkedin.com/in/samikshashindee/"
       target="_blank"
     >
       <div
