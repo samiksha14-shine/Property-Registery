@@ -1,12 +1,17 @@
-<section class="bg-white dark:bg-gray-900">
+<script>
+  // No need to import Navbar or Footer here if they are already included in layout.svelte
+  import "../app.css";
+</script>
+
+<section class="bg-gray-900 dark:bg-gray-800">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
     <a
       href="https://github.com/samiksha14-shine/TSOC-website"
-      class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+      class="inline-flex justify-between items-center py-2 px-4 mb-8 text-sm text-gray-200 bg-gray-700 rounded-full dark:bg-gray-600 dark:text-white hover:bg-gray-800 dark:hover:bg-gray-500 transition-all duration-300"
       target="_blank"
     >
-      <span class="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">Repo link</span>
-      <span class="text-sm font-medium">Github</span>
+      <span class="text-xs bg-primary-500 rounded-full text-white px-4 py-1.5 mr-3">Repo Link</span>
+      <span class="text-sm font-semibold">GitHub</span>
       <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
         <path
           fill-rule="evenodd"
@@ -15,16 +20,16 @@
         ></path>
       </svg>
     </a>
-    <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-      My Web3 FullStack Application
+    <h1 class="mb-6 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-gray-100">
+      Blockchain Property Registry
     </h1>
-    <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-      <span class="text-slate-200">This project is developed with</span>
+    <p class="mb-10 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-200">
+      <span class="text-gray-400">This project is developed with</span>
       <span>
-        <ul class="flex gap-x-7 items-center justify-center font-mono text-base p-2 text-slate-500">
-          <li>Sveltekit</li>
+        <ul class="flex gap-x-6 items-center justify-center font-mono text-base p-2 text-gray-300">
+          <li>SvelteKit</li>
           <li>TailwindCSS</li>
-          <li>Typescript</li>
+          <li>TypeScript</li>
           <li>Scrypt</li>
           <li>NeucronSdk</li>
           <li>Vercel</li>
@@ -33,12 +38,12 @@
       </span>
     </p>
 
-    <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+    <div class="flex flex-col mb-12 lg:mb-20 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
       <a
         href="https://tsoc.dev"
-        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 underline"
+        class="inline-flex justify-center items-center py-3 px-6 text-base font-medium text-center text-white rounded-lg bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-500 dark:focus:ring-primary-300 transition-all duration-300"
       >
-        Learn More about TSoC
+        Learn More About TSoC
       </a>
     </div>
   </div>
