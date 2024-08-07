@@ -68,17 +68,17 @@
           </a>
         </li>
         <li>
-          <a href="/Dashboard" class="block py-2 px-3 navbar-item font-extrabold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
+          <a href="/dashboard" class="block py-2 px-3 navbar-item font-extrabold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
             Dashboard
           </a>
         </li>
         <li>
-          <a href="/Logout" class="block rounded-full py-2 px-3 navbar-item font-extrabold hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
+          <!-- <a href="/Logout" class="block rounded-full py-2 px-3 navbar-item font-extrabold hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
               <path d="M16 13V11H8V8L4 12L8 16V13H16Z" fill="currentColor"/>
               <path d="M20 3H11V5H20V19H11V21H20C21.1 21 22 20.1 22 19V5C22 3.9 21.1 3 20 3Z" fill="currentColor"/>
             </svg>
-          </a>
+          </a> -->
         </li>
       </ul>
     </div>

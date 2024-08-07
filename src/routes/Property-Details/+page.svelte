@@ -1,70 +1,55 @@
-<script lang="ts">
-    let propertyId = '';
-  
-    const handleSubmit = (event: Event) => {
-      event.preventDefault();
-      // Handle form submission logic here to check property details
-      console.log({ propertyId });
-    };
-  </script>
-  
-  <style>
-    .dark-mode-bg {
-      background-color: #0d0d0d; /* Dark background */
-    }
-  
-    .dark-mode-text {
-      color: #ffffff; /* White text color in dark mode */
-    }
-  
-    .input-dark {
-      background-color: #333333; /* Dark input background */
-      color: #ffffff; /* White input text color */
-      border: 1px solid #444444; /* Dark border */
-    }
-  
-    .button-dark {
-      background: linear-gradient(45deg, #e94560, #0f3460); /* Gradient button background */
-      color: #ffffff; /* White button text */
-    }
-  
-    .button-dark:hover {
-      background: linear-gradient(45deg, #d03450, #0d2c50); /* Darker gradient on hover */
-    }
-  
-    .form-container {
-      max-width: 600px;
-      margin: 0 auto;
-      padding: 2rem;
-      background-color: #1a1a1a; /* Dark form container background */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      border-radius: 0.5rem;
-    }
-  </style>
-  
-  <div class="container mx-auto p-6 dark-mode-bg dark-mode-text">
-    <h1 class="text-2xl font-bold mb-4">Check Property Details</h1>
-    <form on:submit={handleSubmit} class="form-container">
-      <div class="mb-4">
-        <label for="property-id" class="block text-sm font-bold mb-2">Property ID:</label>
-        <input
-          type="text"
-          id="property-id"
-          bind:value={propertyId}
-          required
-          class="input-dark shadow appearance-none rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
-          placeholder="Enter Property ID"
-        />
+<script>
+  let propertyId = '';
+
+  const handleSearch = (event) => {
+    event.preventDefault();
+    // Handle search logic here
+    console.log({ propertyId });
+  };
+</script>
+
+<style>
+  :global(body) {
+    background: linear-gradient(to right, #1a202c, #2d3748, #1a202c); /* Gradient background matching other pages */
+    color: #e2e8f0; /* Light text color */
+  }
+  .form-container {
+    background: #2d3748; /* Slightly lighter dark background */
+    border: 1px solid #4a5568; /* Border color */
+  }
+  .button {
+    background: linear-gradient(to right, #f56565, #4299e1); /* Gradient matching website theme */
+  }
+</style>
+
+<section class="bg-gradient-to-r from-black via-gray-800 to-black min-h-screen">
+  <div class="flex flex-col items-center justify-center py-10 mx-auto md:h-screen lg:py-10">
+    <div class="w-full max-w-md bg-gray-800 rounded-lg shadow-lg">
+      <div class="p-6 space-y-6">
+        <h1 class="text-2xl font-bold text-center text-gray-100 mb-4">Property Details</h1>
+        <form on:submit={handleSearch} class="form-container shadow-md rounded px-8 pt-6 pb-8 mb-4">
+          <div class="mb-4">
+            <label for="property-id" class="block text-gray-300 text-sm font-bold mb-2">Property ID:</label>
+            <input
+              type="text"
+              id="property-id"
+              bind:value={propertyId}
+              required
+              class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-100 leading-tight focus:outline-none focus:shadow-outline"
+              placeholder="Enter Property ID"
+            />
+          </div>
+
+          <div class="flex items-center justify-between">
+            <button
+              type="submit"
+              class="button hover:bg-opacity-80 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            >
+              Search
+            </button>
+          </div>
+        </form>
       </div>
-  
-      <div class="flex items-center justify-between">
-        <button
-          type="submit"
-          class="button-dark font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-        >
-          Check Details
-        </button>
-      </div>
-    </form>
+    </div>
   </div>
-  
+</section>

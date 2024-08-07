@@ -11,7 +11,7 @@
       “Blockchain enabled online platform”
     </p>
     
-    <div class="mt-10 space-x-4 flex justify-center">
+    <!-- <div class="mt-10 space-x-4 flex justify-center">
       <a href="/request" class="flex items-center bg-gradient-to-r from-red-500 to-blue-500 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:from-blue-500 hover:to-red-500 transform hover:-translate-y-1 transition duration-300">
         <span class="mr-2"></span> Property Details
       </a>
@@ -21,7 +21,7 @@
       <a href="/dashboard" class="flex items-center bg-gradient-to-r from-red-500 to-blue-500 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:from-blue-500 hover:to-red-500 transform hover:-translate-y-1 transition duration-300">
         <span class="mr-2"></span> Public Map
       </a>
-    </div>
+    </div> -->
     <div class="mt-6">
       <a href="https://referral-link.com" target="_blank" class="inline-block mt-4 bg-gradient-to-r from-red-500 to-blue-500 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:from-blue-500 hover:to-red-500 transform hover:-translate-y-1 transition duration-300">
         🌟 Refer a Friend 🌟
