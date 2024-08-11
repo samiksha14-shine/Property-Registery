@@ -1,5 +1,4 @@
 <script lang="ts">
-  export let form;
 </script>
 
 <section class="bg-gradient-to-r from-black via-gray-800 to-black min-h-screen flex items-center justify-center">
@@ -26,7 +25,7 @@
                         <label for="remember" class="text-gray-400">Remember me</label>
                       </div>
                   </div>
-                  <a href="#" class="text-sm text-gray-400 font-medium text-primary-600 hover:underline">Forgot password?</a>
+                  <a href="/forgot-password" class="text-sm text-gray-400 font-medium text-primary-600 hover:underline">Forgot password?</a>
               </div>
               <button type="submit" class="w-full bg-gradient-to-r from-red-500 to-blue-500 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:from-blue-500 hover:to-red-500 transform hover:-translate-y-1 transition duration-300">Sign in</button>
           </form>

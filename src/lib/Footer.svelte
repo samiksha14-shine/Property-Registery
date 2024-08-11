@@ -6,7 +6,6 @@
   </span>
 
   <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0">
-  
     <li>
       <a href="https://www.linkedin.com/company/timechainlabs/mycompany/" class="block py-0 px-0 text-white rounded font-extrabold hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-300 md:p-0 hover:underline">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">

@@ -24,7 +24,7 @@
     </div> -->
     <div class="mt-6">
       <a href="https://referral-link.com" target="_blank" class="inline-block mt-4 bg-gradient-to-r from-red-500 to-blue-500 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:from-blue-500 hover:to-red-500 transform hover:-translate-y-1 transition duration-300">
-        🌟 Refer a Friend 🌟
+         Refer a Friend 
       </a>
     </div>
   </div>
